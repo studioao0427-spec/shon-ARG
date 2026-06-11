@@ -2,11 +2,26 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>小学校・中学校・高等学校向け 無料ホームページテンプレート tp_school4</title>
+<title>私立聖輪中学校</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="ここにサイト説明を入れます">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.css">
 <link rel="stylesheet" href="css/style.css">
+<style>
+  /* 検索スロットの簡易スタイル（必要に応じてstyle.css等へ移動してください） */
+  .search-container {
+    padding: 10px;
+    text-align: right;
+    background: #f4f4f4;
+  }
+  #searchInput {
+    padding: 5px;
+    width: 200px;
+  }
+  #searchBtn {
+    padding: 5px 10px;
+  }
+</style>
 </head>
 
 <body>
@@ -14,16 +29,18 @@
 <div id="container">
 
 <header>
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="東京北海高等学校"></a></h1>
-<ul class="btn">
-<li><a href="request_info.html">資料請求</a></li>
-<li><a href="contact.html">お問い合わせ</a></li>
-</ul>
+  <div class="search-container">
+    <input id="searchInput" placeholder="検索キーワードを入力...">
+    <button id="searchBtn">検索</button>
+  </div>
 </header>
 
-<!--開閉ブロック-->
-<div id="menubar">
+<div id="searchOverlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); color:#fff; z-index:9999; padding:20px; box-sizing:border-box; overflow-y:auto;">
+  <button id="closeBtn" style="float:right; padding:10px;">閉じる</button>
+  <div id="resultsContent" style="font-family:monospace; white-space:pre-wrap; margin-top:50px; line-height:1.6;"></div>
+</div>
 
+<div id="menubar">
 <nav>
 <ul>
 <li class="current"><a href="index.html">ホーム</a></li>
@@ -39,23 +56,17 @@
 <li><a href="voices.html">卒業生の声</a></li>
 </ul>
 </nav>
-
 </div>
-<!--/#menubar-->
 
-<!--スライドショー-->
 <div id="mainimg-box">
 <div id="mainimg"></div>
 </div>
 
 <main class="c2">
-
 <div class="main">
 
 <section>
-
 <h2>お知らせ</h2>
-
 <dl id="new">
 <dt>2024/07/19<span>お知らせ</span></dt>
 <dd>小さな端末でアンカーリンクを使った場合に不具合があったのでstyle.cssおよびmain.jsを入れ替え。</dd>
@@ -63,137 +74,189 @@
 <dd>小学校・中学校・高等学校向け 無料ホームページテンプレート tp_school4公開。</dd>
 <dt>20XX/00/00<span class="icon-bg1">重要</span></dt>
 <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00<span>お知らせ</span></dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00<span>お知らせ</span></dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
 </dl>
-
 </section>
 
 <section>
-
 <h2>テンプレートのご利用前に必ずお読み下さい</h2>
-
 <h3>利用規約のご案内</h3>
-<p>このテンプレートは、<a href="https://template-party.com/">Template Party</a>にて無料配布している『小学校・中学校・高等学校向け 無料ホームページテンプレート tp_school4』です。必ずダウンロード先のサイトの<a href="https://template-party.com/read.html">利用規約</a>をご一読の上でご利用下さい。</p>
 <p>このテンプレートは、<a href="https://template-party.com/">Template Party</a>にて無料配布している『小学校・中学校・高等学校向け 無料ホームページテンプレート tp_school4』です。必ずダウンロード先のサイトの<a href="https://template-party.com/read.html">利用規約</a>をご一読の上でご利用下さい。</p>
 <p><strong class="color-check">HP最下部の著作表示『Web Design:Template-Party』は無断で削除しないで下さい。</strong><br>
 わざと見えなく加工する事も禁止です。</p>
-<p><strong class="color-check">下部の著作を外したい場合は</strong><br>
-<a href="https://template-party.com/">Template-Party</a>の<a href="https://template-party.com/member.html">ライセンス契約</a>を行う事でHP下部の著作を外す事ができます。</p>
-
-<h3>当テンプレートの詳しい使い方は</h3>
-<p><a href="about.html">こちらをご覧下さい。</a></p>
-
-</section>
-
-<section>
-<div class="c">
-↓ CMSで簡単にサイト構築できるようになりました ↓<br>
-<a href="https://template-party-cms.com/" target="_blank"><img src="https://template-party.com/images/banner/cms2.png" alt=""></a>
-</div>
 </section>
 
 </div>
-<!--/.main-->
-
 <div class="sub">
-
 <div class="box1">
-
 <h3>見出し</h3>
-
 <nav>
 <ul class="submenu">
 <li><a href="">サブメニュー</a></li>
 <li><a href="">サブメニュー</a></li>
-<li><a href="">サブメニュー</a></li>
-<li><a href="">サブメニュー</a></li>
-<li><a href="">サブメニュー</a></li>
 </ul>
 </nav>
-
 </div>
-<!--/.box1-->
-
-<h3>見出し</h3>
-
-<nav>
-<ul class="submenu">
-<li><a href="">サブメニュー</a></li>
-<li><a href="">サブメニュー</a></li>
-<li><a href="">サブメニュー</a></li>
-<li><a href="">サブメニュー</a></li>
-<li><a href="">サブメニュー</a></li>
-</ul>
-</nav>
-
-<p class="img"><img src="images/1.jpg" alt=""></p>
-<p class="img"><img src="images/2.jpg" alt=""></p>
-<p class="img"><img src="images/3.jpg" alt=""></p>
-
 </div>
-<!--/.sub-->
-
 </main>
 
 <div id="footermenu">
 <ul>
 <li class="title">メニュー見出し</li>
-<li><a href="#">サンプルメニューサンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-</ul>
-<ul>
-<li class="title">メニュー見出し</li>
-<li><a href="#">サンプルメニューサンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-</ul>
-<ul>
-<li class="title">メニュー見出し</li>
-<li><a href="#">サンプルメニューサンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-</ul>
-<ul>
-<li class="title">メニュー見出し</li>
-<li><a href="#">サンプルメニューサンプルメニューサンプルメニューサンプルメニュー</a></li>
 <li><a href="#">サンプルメニュー</a></li>
 </ul>
 </div>
-<!--/#footermenu-->
 
 <footer>
-<small>Copyright&copy; <a href="index.html">東京北海高等学校</a> All Rights Reserved.</small>
+<small>Copyright&copy; <a href="index.html">私立聖輪中学校</a> All Rights Reserved.</small>
 <span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
 </footer>
 
 </div>
-<!--/#container-->
 
-<!--開閉ボタン（ハンバーガーアイコン）-->
 <div id="menubar_hdr">
 <span></span><span></span><span></span>
 </div>
 
-<!--ページの上部へ戻るボタン-->
 <div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
 
-<!--jQueryの読み込み-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!--スライドショー（vegas）-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.js"></script>
 <script src="js/vegas.js"></script>
-
-<!--このテンプレート専用のスクリプト-->
 <script src="js/main.js"></script>
 
-</body>
-</html>
+<script>
+  // ===== ユーティリティ関数 =====
+  function openOverlay() {
+    document.getElementById('searchOverlay').style.display = 'block';
+    disableScroll();
+  }
+
+  function closeOverlay() {
+    document.getElementById('searchOverlay').style.display = 'none';
+    enableScroll();
+  }
+
+  function appendLine(text) {
+    document.getElementById('resultsContent').innerHTML += text + '<br>';
+  }
+
+  function disableScroll() {
+    document.body.style.overflow = 'hidden';
+  }
+
+  function enableScroll() {
+    document.body.style.overflow = '';
+  }
+
+  function formatComment(c) { return c; }
+
+  function typeToConsole(text, callback) {
+    appendLine(text);
+    if (callback) callback();
+  }
+
+  // ===== メイン処理（DOM読み込み後に実行） =====
+  document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('searchInput');
+    const searchBtn = document.getElementById('searchBtn');
+    const searchOverlay = document.getElementById('searchOverlay');
+    const closeBtn = document.getElementById('closeBtn');
+    const output = document.getElementById('resultsContent');
+
+    if (!searchInput || !searchBtn || !searchOverlay || !closeBtn || !output) return;
+
+    // Enterキーで検索
+    searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        searchBtn.click();
+      }
+    });
+
+    // 検索ボタンクリックイベント
+    searchBtn.addEventListener('click', () => {
+      output.innerHTML = '';
+      output.scrollTop = 0;
+
+      let rawInput = searchInput.value.trim();
+      if (!rawInput) {
+        openOverlay();
+        appendLine('検索キーワードを入力してください。');
+        return;
+      }
+
+      rawInput = rawInput.replace(/[\x00-\x1F\x7F\u2028\u2029]/g, '');
+      rawInput = rawInput.replace(/\u3000/g, ' ');
+
+      const parts = rawInput.split(/\s+/).filter(Boolean);
+      if (parts.length > 2) {
+        openOverlay();
+        appendLine('入力は2ワードまでにしてください。');
+        return;
+      }
+
+      const searchTerms = parts.length === 2 ? [parts[0] + parts[1], parts[1] + parts[0]] : [rawInput];
+
+      searchInput.value = '';
+      openOverlay();
+
+      let found = false;
+      let pendingCount = searchTerms.length;
+
+      searchTerms.forEach((term) => {
+        if (found) return;
+        const filePath = './search/' + encodeURIComponent(term) + '.json';
+
+        fetch(filePath)
+          .then((response) => {
+            if (!response.ok) throw new Error('読み込み失敗');
+            if (found) return; 
+            found = true;
+            return response.json();
+          })
+          .then((resp) => {
+            if (!found || !resp) return;
+            if (resp.comment) {
+              typeToConsole(formatComment(resp.comment), () => {
+                setTimeout(() => {
+                  if (resp.type === 'move' && resp.url) {
+                    appendLine('[JUMP] ' + resp.url);
+                    setTimeout(() => {
+                      closeOverlay();
+                      window.location.href = resp.url;
+                    }, 2000);
+                  }
+                }, 1000);
+              });
+            } else {
+              pendingCount--;
+              if (!pendingCount) {
+                appendLine('[ERROR] コメントが見つかりません');
+              }
+            }
+          })
+          .catch(() => {
+            pendingCount--;
+            if (!found && pendingCount === 0) {
+              appendLine('申し訳ございません。お探しの情報に関する記事は見つかりませんでした。<br>1～2のキーワードを検索することで記事が見つかる場合があります。<br><br>本サイトの検索エンジンの仕様上、3つ以上のキーワードで見つかる記事はありません。');
+            }
+          });
+      });
+    });
+
+    // 閉じるボタン
+    closeBtn.addEventListener('click', () => closeOverlay());
+
+    // ESCキーで閉じる
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && searchOverlay.style.display === 'block') {
+        closeOverlay();
+      }
+    });
+
+    // 背景クリックで閉じる
+    searchOverlay.addEventListener('click', (e) => {
+      if (e.target === searchOverlay) closeOverlay();
+    });
+  });
+</script>
