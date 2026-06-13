@@ -921,3 +921,12 @@ ul.btn a {
 		.pc {display: block;}
 
 	}/*画面幅900px以上の追加指定ここまで*/
+.list-container {
+  display: flex;
+  gap: 20px;           /* 要素の間のスペース */
+  flex-wrap: wrap;     /* スマホで折り返す */
+}
+
+.list {
+  width: 30%;          /* 3つ並べる */
+}
