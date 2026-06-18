@@ -921,12 +921,38 @@ ul.btn a {
 		.pc {display: block;}
 
 	}/*画面幅900px以上の追加指定ここまで*/
-.list-container {
+.card-container {
   display: flex;
-  gap: 20px;           /* 要素の間のスペース */
-  flex-wrap: wrap;     /* スマホで折り返す */
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.list {
-  width: 30%;          /* 3つ並べる */
+.card {
+  width: 30%;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.text {
+  padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: 100%;
+  }
 }
