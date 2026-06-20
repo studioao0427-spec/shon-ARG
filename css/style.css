@@ -115,6 +115,10 @@ a:hover {
 .hero {
   height: 100vh;
   background: linear-gradient(135deg, #0b3d2e, #3dd1a0);
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url("serin.jpg");
+  background-size: cover;
+  background-position: center;
   color: white;
   display: flex;
   align-items: center;
