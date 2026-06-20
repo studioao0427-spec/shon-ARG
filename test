@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>翡翠川大学（HISUIGAWA University）</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="翡翠川大学の公式ウェブサイトです。大学案内、学部・研究院、研究・産学連携、学生生活、国際交流、入試情報などの情報をご覧いただけます。">
+
+<!-- OGP基本設定 -->
+  <meta property="og:url" content="https://sakusoumeimu.kinamieggyolk.shop/hisuigawauniversity.html"/>
+  <meta property="og:type" content="website" /> <!-- 記事なら article -->
+  <meta property="og:title" content="翡翠川大学（HISUIGAWA University）"/>
+  <meta property="og:description" content="翡翠川大学の公式ウェブサイトです。大学案内、学部・研究院、研究・産学連携、学生生活、国際交流、入試情報などの情報をご覧いただけます。"/>
+  <meta property="og:site_name" content="翡翠川大学"/>
+  <meta property="og:image" content="https://sakusoumeimu.kinamieggyolk.shop/images/hisuigawaunicard.jpg?v=1"/>
+  <!-- X(Twitter)用設定 -->
+  <meta name="twitter:card" content="summary_large_image"/> <!-- 画像を大きく表示する場合 -->
+  <meta name="twitter:title" content="翡翠川大学（HISUIGAWA University）">
+  <meta name="twitter:description" content="翡翠川大学の公式ウェブサイトです。大学案内、学部・研究院、研究・産学連携、学生生活、国際交流、入試情報などの情報をご覧いただけます。">
+  <meta name="twitter:image" content="https://sakusoumeimu.kinamieggyolk.shop/images/hisuigawaunicard.jpg?v=1"/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+  <!-- SVGファビコン（軽量で高画質） -->
+  <link rel="icon" href="/images/hisuigawamark.svg?v=2" type="image/svg+xml">
+
+  <!-- 互換性用 -->
+  <link rel="icon" href="/images/favicon.ico" sizes="48x48">
+  
+  <!-- Appleデバイス用（ホーム画面に保存した際のアイコン） -->
+  <link rel="apple-touch-icon" href="images/hisuigawauniversity_emblem.png">
+
+
+
+<script type="text/javascript" charset="UTF-8" src="//cache1.value-domain.com/xrea_header.js" async="async"></script>
+</head>
+
+
+
+<style>
+/* 検索欄基本スタイル */
+    #searchOverlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+      z-index: 9999;
+      overflow-y: auto;
+    }
+
+    #searchResults {
+      color: #000000;
+      background: #fff;
+      margin: 5% auto;
+      padding: 20px;
+      width: 80%;
+      max-width: 800px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    #closeBtn {
+      float: right;
+      cursor: pointer;
+      background: #38b48b;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+    }
+
+/* ヘッダー全体のスタイル */
+.site-header {
+  background: linear-gradient(to bottom right, #001407, #4fffc4);
+  color: #fff;
+  display: flex;
+  min-width: 0;
+  justify-content: center;
+  align-items: center; /* 垂直方向の中央揃え */
+  padding: 10px 0;
+  width: 100%;
+}
+
+.header-container {
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* 表層ページ限定のキャッチコピー表記 */
+.catch {
+  font-size: 21px;
+  text-align: center;
+  font-family: "BIZ UDPMincho", "MS PMincho", "Yu Mincho", "YuMincho", serif;
+}
+
+/* 検索フォームのスタイル */
+.searchForm {
+  display: flex;
+}
+
+.searchInput {
+  flex: 1; /* 幅を可能な限り広げる */
+  padding: 14px;
+  border: 1px solid #ccc; /* 枠線を付けて見やすくする */
+  border-radius: 4px 4px 4px 4px;
+  outline: none;
+}
+
+.searchBtn {
+  padding: 8px 15px;
+  background-color: #38b48b;
+  border: 1px solid #3cb371; /* 枠線を付けて見やすくする */
+  color: white;
+  cursor: pointer;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.searchBtn:hover {
+  background-color: #2f9976; /* マウスを乗せた時に少し暗くする */
+}
+
+/* スマホ対応：画面が狭いときは縦並びにする */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+<!--検索欄設定ここから-->
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <!-- ロゴ部分 -->
+    <a href="https://sakusoumeimu.kinamieggyolk.shop/hisuigawauniversity.html";><img src="images/hisuigawasymbol.jpg" alt="翡翠川大学">
+        <span class="logo" aria-hidden="true"></span>
+        <span class="brand-name"></span>
+    </a>
+
+    <div class="catch"><b>夢という名の水面に飛び込め｡</b></div>
+    <div class="catch"><p style="font-size: 14px;">Dive into the waters of your ambitions.<p></div>
+
+    <!-- 検索フォーム -->
+    <div class="header-actions" style="text-align: right; margin-right: 10px;">
+      <input type="text" id="searchInput" placeholder="キーワードを入力" class="searchInput">
+      <button id="searchBtn" class="searchBtn">検索</button>
+
+  <!-- 検索結果オーバーレイ -->
+  <div id="searchOverlay" style="text-align: left;">
+    <div id="searchResults" style="text-align: left;">
+      <button id="closeBtn">閉じる</button>
+      <h2>検索結果</h2>
+      <div id="resultsContent">
+        <!-- JavaScriptで検索結果を表示 -->
+      </div>
+    </div>
+  </div>
+
+  </div>
+</header>
+
+<!--検索欄設定ここまで-->
+
+
+
+<div id="container">
+
+<!--開閉ブロック-->
+<div id="menubar">
+
+<nav>
+<ul>
+<li class="current"><a href="hisuigawauniversity.html">ホーム</a></li>
+<li><a href="daigakuannai.html">大学案内</a></li>
+<li><a href="404error.html">学部・研究院</a></li>
+<li><a href="404error.html">研究・産学連携</a></li>
+<li><a href="404error.html">学生生活</a></li>
+<li><a href="404error.html">国際交流</a></li>
+<li><a href="404error.html">入試情報</a></li>
+</ul>
+</nav>
+
+</div>
+<!--/#menubar-->
+
+<!--スライドショー-->
+<div id="mainimg-box">
+<div id="mainimg"></div>
+</div>
+
+<main class="c2">
+
+<div class="main">
+
+<section>
+<style>
+h4 {
+  padding: 0.5em;
+  background: rgba(239, 64, 80, .23);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .23);
+}
+</style>
+
+<h4>【重要】現在、サイト内においてリンク切れや画像ファイルの破損が多発しております。詳細は<a href="https://sakusoumeimu.kinamieggyolk.shop/siteerror.html">こちら</a>をご覧ください。</h4>
+
+</section>
+
+<section>
+
+<h2>お知らせ</h2>
+
+<div class="list-container">
+
+<div class="list"><a href="siteerror.html">
+<figure><img src="images/important.png" alt=""></figure>
+<div class="text">
+<h3>本サイトにて発生中の不具合について</h3>
+<p style="text-align: right;">カテゴリ：重要　掲載日：2025年12月16日</p>
+</div></a>
+</div>
+
+<div class="list"><a href="zeminikkiunpublish.html">
+<figure><img src="images/important.png" alt=""></figure>
+<div class="text">
+<h3>本サイトに掲載されていた日記ブログについて</h3>
+<p style="text-align: right;">カテゴリ：重要　掲載日：2025年12月15日</p>
+</div>
+</div>
+
+<div class="list"><a href="404error.html">
+<figure><img src="images/gakusei5.png" alt=""></figure>
+<div class="text">
+<h3>本学学生が数学オリンピックにて上位入賞いたしました！</h3>
+<p style="text-align: right;">カテゴリ：ニュース　掲載日：2025年12月09日</p>
+</div>
+</div>
+
+</div>
+<!--/.list-container-->
+
+<p style="font-size: 16px; text-align: right;"><a href="https://sakusoumeimu.kinamieggyolk.shop/osiraselist.html">一覧はこちらから>></a></p>
+
+</section>
+
+<section>
+
+<h2>イベント</h2>
+
+<div class="list-container">
+
+<div class="list"><a href="404error.html">
+<figure><img src="images/information.png" alt=""></figure>
+<div class="text">
+<h3>15社共同企業説明会開催！</h3>
+<p style="text-align: right;">掲載日：2025年12月10日</p>
+</div></a>
+</div>
+
+<div class="list"><a href="404error.html">
+<figure><img src="images/information.png" alt=""></figure>
+<div class="text">
+<h3>後援会主催・決起集会のお知らせ</h3>
+<p style="text-align: right;">掲載日：2025年11月23日</p>
+</div>
+</div>
+
+<div class="list"><a href="suijusai.html">
+<figure><img src="images/suijusaithumbnail.png" alt=""></figure>
+<div class="text">
+<h3>第20回翠珠祭開催！</h3>
+<p style="text-align: right;">掲載日：2025年11月4日</p>
+</div>
+</div>
+
+</div>
+<!--/.list-container-->
+
+<p style="font-size: 16px; text-align: right;"><a href="https://sakusoumeimu.kinamieggyolk.shop/404error.html">一覧はこちらから>></a></p>
+
+</section>
+
+<!--ページ番号と機密レベルの表示-->
+<section>
+<lv0>1/80(LV0) <a style="color: #cfcfcf;" href="pagehistory.html">閲覧履歴を見る</a></lv0>
+</section>
+
+</div>
+<!--/.main-->
+
+
+
+<div class="sub">
+
+<div class="box1">
+
+<h3>ご案内</h3>
+
+<nav>
+<ul class="submenu">
+<li><a href="404error.html">入学希望の方へ</a></li>
+<li><a href="404error.html">在学生の方へ</a></li>
+<li><a href="404error.html">卒業生の方へ</a></li>
+<li><a href="404error.html">企業の方へ</a></li>
+<li><a href="404error.html">一般の方へ</a></li>
+</ul>
+</nav>
+
+</div>
+<!--/.box1-->
+
+
+</main>
+
+<div id="footermenu">
+<ul>
+<li class="title"><img src="images/hisuigawasymbol.jpg" alt="翡翠川大学" width="160" height="60"></li>
+<li><b>翡翠川大学 </b><a style="font-size: 11px;">HISUIGAWA University</a></li>
+<li>〒XXX-XXXX</li>
+<li>長野県蝉川市鏡ヶ丘1-9</li>
+<li class="title"><a href="404error.html">お問い合わせ</a></li>
+</ul>
+<ul>
+<li class="title"><a href="404error.html">採用情報</a></li>
+<li class="title"><a href="daigakuannai.html">大学案内</a></li>
+<li class="title"><a href="404error.html">入試情報</a></li>
+<li class="title"><a href="404error.html">研究・産学連携</a></li>
+<li class="title"><a href="404error.html">国際交流</a></li>
+<li class="title"><a href="404error.html">サイトマップ</a></li>
+</ul>
+<ul>
+<li class="title"><a href="404error.html">学部・研究院</a></li>
+<li class="title"><a href="404error.html">資料請求</a></li>
+<li class="title"><a href="osiraselist.html">お知らせ</a></li>
+<li class="title"><a href="404error.html">イベント</a></li>
+<li class="title"><a href="404error.html">学生生活</a></li>
+<li class="title"><a href="404error.html">プライバシーポリシー</a></li>
+</ul>
+</div>
+<!--/#footermenu-->
+
+<footer>
+<small><a>このWebサイトは考察・謎解きコンテンツのために作成されたフィクションであり、<br>実際の人物・団体とは一切関係ございません。</a></small>
+<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+<small>&copy;<a>きなみ</a></small>
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--開閉ボタン（ハンバーガーアイコン）-->
+<div id="menubar_hdr">
+<span></span><span></span><span></span>
+</div>
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--スライドショー（vegas）-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.js"></script>
+<script src="js/vegas.js"></script>
+
+<!--このテンプレート専用のスクリプト-->
+<script src="js/main.js"></script>
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#" style="bottom: 65px;"><i class="fas fa-angle-double-up"></i></a></div>
+
+<script defer src="js/script.js"></script>
+
+</body>
+</html>	
