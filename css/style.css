@@ -112,34 +112,79 @@ a:hover {
 
 /*header（ロゴが入った最上段のブロック）
 ---------------------------------------------------------------------------*/
-/*ヘッダーブロック*/
-header {
-	padding: 20px var(--global-space);	/*上下、左右へのボックス内の余白。左右はcss冒頭で指定しているglobal-spaceを読み込みます*/
-	background: var(--primary-color);	/*背景色。css冒頭で指定しているprimary-colorを読み込みます*/
-	color: var(--primary-inverse-color);	/*文字色。css冒頭で指定しているprimary-inverse-colorを読み込みます*/
-}
-header a {color: inherit;}
-
-/*ロゴ*/
-#logo img {display: block;}
-#logo {
-	max-width: 300px;	/*ロゴの幅*/
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #0b3d2e, #3dd1a0);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-	/*画面幅900px以上の追加指定*/
-	@media screen and (min-width:900px) {
+.hero-content {
+  width: 80%;
+}
 
-	/*ヘッダーブロック*/
-	header {
-		display: flex;					/*flexボックスを使う指定*/
-		justify-content: space-between;	/*並びかたの種類の指定*/
-		align-items: center;			/*垂直揃えの指定。天地中央に配置されるように。*/
-	}
+/* 上のロゴ部分 */
+.hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
 
-	}/*画面幅900px以上の追加指定ここまで*/
+.logo {
+  width: 120px;
+}
 
-/*トップページのスライドショー（vegasを使用）
-背景画像をレスポンシブにする為の設定ですが、画像比率を変更したい場合はテンプレート内マニュアルをご覧下さい。
+.title h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.title p {
+  margin: 0;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+/* 中央 */
+.hero-center {
+  margin-top: 40px;
+}
+
+.hero-center h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero-center p {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/* 検索 */
+.hero-search {
+  margin-top: 40px;
+}
+
+.hero-search input {
+  padding: 12px;
+  width: 300px;
+  border-radius: 8px;
+  border: none;
+}
+
+.hero-search button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  border: none;
+  background: #2dbd8c;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
 ---------------------------------------------------------------------------*/
 #mainimg-box {
 	width: 100%;
