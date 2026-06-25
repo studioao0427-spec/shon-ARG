@@ -1083,6 +1083,41 @@ ul.btn a {
   border-radius: 4px 4px 4px 4px;
 }
 
+.header-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.catch {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.catch p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.searchInput {
+  width: 300px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+}
+
+.searchBtn {
+  padding: 12px 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background: #38b48b;
+}
+
 .searchBtn:hover {
   background-color: #2f9976; /* マウスを乗せた時に少し暗くする */
 }
